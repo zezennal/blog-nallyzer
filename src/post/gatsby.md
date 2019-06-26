@@ -3,9 +3,11 @@ title: "The great gatsby js"
 date: "24-juni-2019"
 ---
 
-welcome gatsby js
+i baru membuat perusahaan!
 
-##Topics
+1[img](./img.jpg)
+
+##Topics 
 
 1. Teknologi
 2. Programming
