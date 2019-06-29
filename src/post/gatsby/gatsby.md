@@ -5,7 +5,7 @@ date: "24-juni-2019"
 
 i baru membuat perusahaan!
 
-1[img](./img.jpg)
+![img](../img.jpg)
 
 ##Topics 
 
