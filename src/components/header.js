@@ -22,13 +22,13 @@ const Header = () => {
       <nav>
         <ul className={HeaderStyles.navList}>
           <li>
-            <Link className={HeaderStyles.navItem} activeClassName={HeaderStyles.activeNavItem} to="/">Home</Link>
-          </li>
-          <li>
             <Link className={HeaderStyles.navItem} activeClassName={HeaderStyles.activeNavItem} to="/blog">Blog</Link>
           </li>
           <li>
-            <Link className={HeaderStyles.navItem} activeClassName={HeaderStyles.activeNavItem} to="/contact">Contact</Link>
+            <Link className={HeaderStyles.navItem} activeClassName={HeaderStyles.activeNavItem} to="/work">Work</Link>
+          </li>
+          <li>
+            <Link className={HeaderStyles.navItem} activeClassName={HeaderStyles.activeNavItem} to="/aboutMe">About Me</Link>
           </li>
         </ul>
       </nav>

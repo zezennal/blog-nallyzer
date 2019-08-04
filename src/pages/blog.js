@@ -17,6 +17,7 @@ const BlogPage = () => {
             fields{
               slug
             }
+            excerpt
           }
         }
       }
@@ -33,6 +34,7 @@ const BlogPage = () => {
               <Link to={`/blog/${edge.node.fields.slug}`}>
               <h2>{edge.node.frontmatter.title}</h2>
               <p>{edge.node.frontmatter.date}</p>
+              <p>{edge.node.excerpt}</p>
               </Link>
             </li>
           )

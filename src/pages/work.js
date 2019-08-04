@@ -2,13 +2,13 @@ import React from 'react'
 
 import Layout from '../components/layout'
 
-const ContactPage = () => {
+const WorkPage= () => {
   return(
     <Layout>
-      <h1>Contact</h1>
-      <p>haloo hire me</p>
+      <h1>My work</h1>
+      <p>testing !</p>
     </Layout>
   )
 }
 
-export default ContactPage
+export default WorkPage

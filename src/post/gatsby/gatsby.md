@@ -1,9 +1,9 @@
 ---
-title: "The great gatsby js"
+title: "gatsby js"
 date: "24-juni-2019"
 ---
 
-i baru membuat perusahaan!
+gastby js basicnya adalah reactJS, developer membuat gatsbyjs untuk mempermudah pekerjaan seperti hal nya cms. gastby is CMS
 
 ![img](../img.jpg)
 
