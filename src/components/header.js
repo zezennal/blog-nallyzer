@@ -20,6 +20,10 @@ const Header = () => {
         <h1>
           <Link className={HeaderStyles.logo} to="/">{data.site.siteMetadata.author}</Link>
         </h1>
+
+        <p>Product designer<br/>Front-end developer<br/>Full-stack UX design specialist
+        </p>
+        
         <nav>
           <ul className={HeaderStyles.navList}>
             <li>
@@ -33,6 +37,17 @@ const Header = () => {
             </li>
           </ul>
         </nav>
+
+        <div className={HeaderStyles.email}>
+          <p>
+          For business enquiries or casual chatter—do drop me a line at lp.frtoip@olleh. I ♥︎ emails.
+          </p>
+          <div className={HeaderStyles.icons}>
+            <Link to="/">Fb</Link>
+            <Link to="/">iG</Link>
+            <Link to="/">iN</Link>
+          </div>
+        </div>
       </header>
     </div>
   )

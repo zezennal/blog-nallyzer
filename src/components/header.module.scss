@@ -17,7 +17,7 @@ body{
 
 .header{
   position: fixed;
-  width: 200px;
+  width: 240px;
   height: 100%;
   background: #79787c;
   padding: 20px 0;
@@ -27,12 +27,14 @@ body{
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 50px;
+  margin-left: 1rem;
   color: #fff;
 }
 
-.wrapper .main-content{
-  width: 100%;
-  margin-left: 203px;
+.wrapper .header p{
+  color: #fff;
+  font-size: 0.8rem;
+  margin-left: 19px;
 }
 
 .link{
@@ -40,9 +42,10 @@ body{
 }
 
 .nav-list{
-  display: flex;
+  display: block;
   list-style-type: none;
-  margin: 0;
+  margin: 1rem;
+  padding: 40px 10px;
 }
 
 .nav-item{
@@ -58,4 +61,16 @@ body{
 
 .active-nav-item{
   color: #333333;
+}
+
+.wrapper .header .email{
+  position: absolute;
+  bottom: 1.5rem;
+  margin: 10px;
+  font-size: 0.9rem;
+  color: #fff;
+}
+
+.wrapper .header .icons {
+  margin: 4px;
 }
