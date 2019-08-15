@@ -6,7 +6,7 @@ const AboutMePage = () => {
   return(
     <Layout>
       <h1>About me</h1>
-      <p>haloo hire me</p>
+      <p>test test test</p>
     </Layout>
   )
 }
