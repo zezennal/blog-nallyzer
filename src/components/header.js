@@ -1,5 +1,7 @@
 import React from 'react'
 import {Link, graphql, useStaticQuery} from 'gatsby'
+import TextLoop from 'react-text-loop'
+import { FaInstagram, FaGithub, FaLinkedin } from 'react-icons/fa';
 
 import HeaderStyles from './header.module.scss'
 
@@ -21,8 +23,12 @@ const Header = () => {
           <Link className={HeaderStyles.logo} to="/">{data.site.siteMetadata.author}</Link>
         </h1>
 
-        <p>Product designer<br/>Front-end developer<br/>Full-stack UX design specialist
-        </p>
+        <TextLoop
+          springConfig={{ stiffness: 180, damping: 8 }}>
+            <p>Product designer</p>
+            <p>Front-end developer</p>
+            <p>Full-stack UX design specialist</p>
+        </TextLoop>{" "}
         
         <nav>
           <ul className={HeaderStyles.navList}>
@@ -43,9 +49,9 @@ const Header = () => {
           For business enquiries or casual chatter—do drop me a line at lp.frtoip@olleh. I ♥︎ emails.
           </p>
           <div className={HeaderStyles.icons}>
-            <Link to="/">Fb</Link>
-            <Link to="/">iG</Link>
-            <Link to="/">iN</Link>
+            <Link to="/"><FaInstagram/></Link>
+            <Link to="/"><FaGithub/></Link>
+            <Link to="/"><FaLinkedin/></Link>
           </div>
         </div>
       </header>
